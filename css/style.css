@@ -1,11 +1,24 @@
 .brownie {
 	padding-left: 50px;
+	text-align: center;
 
 }
-.grandma{
-	padding-left: 50px;
-	padding-bottom: 500px;
-	width: 50px;
-	height: 50px;
 
+#market{
+	margin-top: 200px;
+}
+
+#grandmaDiv{
+	margin-left: 200px;
+	float: left;
+	height: 100px;
+}
+#ironchefDiv{
+	margin-left: 50px;
+	float: left;
+}
+
+
+body {
+    background-image: url("../images/giphy.gif");
 }

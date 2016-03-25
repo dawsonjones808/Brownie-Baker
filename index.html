@@ -5,17 +5,21 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 		<body>
+		<button type="button" onclick="music()" name="Calm Music">Calm Music</button>
 		<div class=brownie>
 			<br>
 			<p id="score"></p>
 			<input onclick="press()" type="image" id="button" src="images/brownie.gif">
-			<input onclick="press()" type="image" id="button" src="images/brownie.gif">
-			<input onclick="press()" type="image" id="button" src="images/brownie.gif">
-			<input onclick="press()" type="image" id="button" src="images/brownie.gif">
-			<input onclick="press()" type="image" id="button" src="images/brownie.gif">
 			</div>
-			<div class=grandma>			
-			<input onclick="grandma()" type="image" id="button" src="images/grandma.jpg">
+			<div id="market">
+				<div id="grandmaDiv">			
+					<input onclick="grandma()" type="image" id="button" src="images/grandma.jpg">
+					<div> Grandma- 2000 for 2 Brownies per Click</div>
+				</div>
+				<div id="ironchefDiv">
+					<input onclick="ironchef()" type="image" id="button" src="images/imgres.jpg">
+					<div> Iron Chef Grandma- 3000 for 3 Brownies per Click</div>	
+				</div>
 			</div>
 		<script type="text/javascript" src="js/app.js"></script>
 		</body>
