@@ -1,7 +1,11 @@
-.brownie{
-	text-align: center;
+.brownie {
+	padding-left: 50px;
+
 }
 .grandma{
-	text-align: center;
-}
+	padding-left: 50px;
+	padding-bottom: 500px;
+	width: 50px;
+	height: 50px;
 
+}
