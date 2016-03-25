@@ -36,6 +36,15 @@ var ironchef = function() {
 		bonus=0;
 	}
 }
+var truckload = function() {
 
+	if (count>=4000){
+		bonus=4;
+	count= count-4000;
+	documentgetElementById('score')innerHTML = "Current Brownies: " + count;
+	}
+	else{
+		bonus=0
+	}
 
 console.log("click variable");
